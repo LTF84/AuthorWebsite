@@ -4,23 +4,22 @@
     <body style="background-color:darkslategray;">
         <style>
             a:link, a:visited {
-              background-color: gray;
-              color: white;
-              padding: 10px 20px;
-              text-align: center;
-              text-decoration: none;
-              display: inline-block;
+              
+              color: rgb(0, 187, 255);
+              text-decoration: none
+              
             }
             
             a:hover, a:active {
-              background-color: darkgray;
+              color: darkgray;
+              text-decoration: none
             }
             
             .button {
-  background-color: rgb(2, 171, 255);
+  background-color: gray;
   border: none;
   color: white;
-  padding: 4px 6px;
+  padding: 10px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -34,18 +33,22 @@
 
 <h1 style="color: white">About Lewis Fields</h1>
 
-<p>
-    <a href="mainpage.html"> Main Page </a>
-<a href="bookpage.html"> Current Works </a></p>
+<button class="button" onclick="document.location='mainpage.html'">Main Page</button>
+ <button class="button" onclick="document.location='bookpage.html'">Current Works</button>
 
-<img src=AuthorImage1.jpg alt="Image of the author Lewis Fields." style="border: 5px solid grey"/>
+ <br>
+ <br>
+
+<img src=SittingPhoto.jpg alt="Image of the author Lewis Fields." style="border: 5px solid grey" height="400" width="275"/>
 
 
 
 <p style="color: white">Lewis Fields is a Mississippi raised and born author and a graduate of Mississippi State University. 
     His first novella is PL Connors, published in 2023. 
     He can be contacted at his 
-    <button class="button" onclick="document.location='https://twitter.com/allhailprimus'"> twitter</button>
+
+    <a href="https://twitter.com/allhailprimus"> twitter</a>
+
     or via email at LewisFields00@gmail.com.  </p>
 
 </body>

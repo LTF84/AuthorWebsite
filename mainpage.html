@@ -4,24 +4,37 @@
     <body style="background-color:darkslategray;">
         <style>
             a:link, a:visited {
-              background-color: gray;
+              
               color: white;
-              padding: 10px 20px;
-              text-align: center;
-              text-decoration: none;
-              display: inline-block;
+              text-decoration: none
+              
             }
             
             a:hover, a:active {
-              background-color: darkgray;
+             color: darkgray;
+             text-decoration: none
             }
+
+            .button {
+  background-color: gray;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 1px 1px;
+  cursor: pointer;
+}
 
             
             </style>
 
 <h1 style="color: white">Welcome!</h1>
 
-<a href="aboutauthor.html">About Author</a> <a href="bookpage.html">Current Works</a></p>
+<button class="button" onclick="document.location='aboutauthor.html'">About Author</button>
+ <button class="button" onclick="document.location='bookpage.html'">Current Works</button>
 
 
 <p style="color: white">Thank you for taking a look at my website. 
